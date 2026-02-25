@@ -1,0 +1,166 @@
+body {
+  margin:0;
+  font-family:'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top,#0b1020,#000);
+  color:#e5e5e5;
+  overflow-x:hidden;
+}
+
+/* PARTICLE LAYER */
+#particles {
+  position:fixed;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+
+.logo-section {
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.logo {
+  height:60px;
+}
+
+.brand {
+  font-weight:600;
+  letter-spacing:1px;
+}
+
+
+nav {
+  display:flex;
+  justify-content:space-between;
+  padding:20px 80px;
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+.nav-links a {
+  margin-left:30px;
+  text-decoration:none;
+  color:#aaa;
+  transition:0.3s;
+}
+
+.nav-links a:hover {
+  color:#3b82f6;
+}
+
+/* HERO */
+.hero {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:120px 80px;
+  color: rgba(192, 182, 182, 0.821);
+}
+
+.hero-left {
+  max-width:600px;
+}
+
+.cta {
+  display:inline-block;
+  margin-top:30px;
+  padding:12px 28px;
+  background:#2563eb;
+  border-radius:6px;
+  color:white;
+  text-decoration:none;
+}
+
+#globe-container {
+  width:400px;
+  height:400px;
+}
+
+/* SECTIONS */
+section {
+  padding:100px 80px;
+}
+
+.vision-box,
+.founder-box {
+    
+  margin-top:40px;
+  padding:40px;
+  background:#111;
+  border:1px solid rgba(59,130,246,0.2);
+  border-radius:20px;
+  color:#f5daab
+}
+
+blockquote {
+  color:rgb(87, 87, 255);
+  font-style:italic;
+}
+
+/* INDUSTRY */
+.industry-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+  margin-top:50px;
+}
+
+.industry-card {
+  background:#111;
+  padding:30px;
+  border-radius:18px;
+  border:1px solid #222;
+  transition:0.3s;
+}
+
+.industry-card:hover {
+  transform:translateY(-10px);
+  box-shadow:0 0 25px rgba(59,130,246,0.4);
+}
+
+/* OFFER */
+.offer-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+  margin-top:50px;
+  color: antiquewhite;
+}
+
+.offer-grid div {
+  background:#111;
+  padding:30px;
+  border-radius:18px;
+  border:1px solid #222;
+}
+
+/* FORM */
+form {
+  max-width:600px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input, select, textarea {
+  padding:12px;
+  background:#111;
+  border:1px solid #333;
+  color:white;
+}
+
+button {
+  padding:14px;
+  background:#2563eb;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
+footer {
+  padding:60px;
+  text-align:center;
+  border-top:1px solid #111;
+}
